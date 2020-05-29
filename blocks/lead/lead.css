@@ -6,22 +6,26 @@
 .lead {
   margin: 0 auto;
   padding: 0 148px;
+  max-width: 984px;
 }
 
-@media (max-width: 1279px) {
+@media screen and (max-width: 1030px) {
   .lead {
     padding: 0 48px;
+    max-width: 928px;
   }
 }
 
-@media (max-width: 1023px) {
+@media screen and (max-width: 780px) {
   .lead {
     padding: 0;
+    max-width: 768px;
   }
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 425px) {
   .lead {
     padding: 0;
+    max-width: minmax(320px, 425px);
   }
 }
